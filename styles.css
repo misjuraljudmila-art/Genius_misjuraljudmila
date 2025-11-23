@@ -1,0 +1,56 @@
+:root {
+    --primary-color: crimson;
+    --secondary-color: chocolate;
+    --hover-primary-color: brown;
+    --hover-secondary-color: brown;
+    --focus-primary-color: chartreuse;
+    --focus-secondary-color: blueviolet;
+    --link-color: brown;
+    --link-hover-color: crimson;
+    --section-title-color: rgb(78, 0, 0);
+}
+/*Base styles*/
+body {
+    color: var(--primary-color);
+}
+ul {
+    list-style-position: none;
+}
+/*Button styles*/
+.button-primary {
+    color: white;
+background-color: var(--primary-color);
+        border: 2px solid;
+        border-radius: 8px;
+        cursor: pointer;
+}
+.button-primary:hover {
+    background-color: var(--hover-primary-color);
+}
+button-primary:focus {
+    background-color:var(--focus-primary-color);
+}
+ .button-secondary {
+    color: white;
+background-color: var(--secondary-color);
+    border: 2px solid;
+     border-radius: 8px;
+     cursor: pointer;
+ }
+ .button-secondary:hover {
+    background-color: var(--hover-secondary-color);
+ }
+ .button-secondary:focus {
+    background-color:var(--focus-secondary-color)
+ }
+/*Link */
+.link {
+    color: var(--link-color);
+}
+.link:hover {
+    color:var(--link-hover-color);
+}
+/*Section Titles*/
+.section-title {
+    color: var(--section-title-color);
+}
